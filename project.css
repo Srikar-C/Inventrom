@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+	font-family: 'Nexa';
+}
+
+
+/*nav*/
+.navhead{
+	display: flex;
+	position: fixed;
+	background-color: white;
+}
+.navleft{
+	width: 600px;
+}
+.logo{
+	cursor: pointer;
+	margin-left: 40px;
+}
+.navright{
+	width: 700px;
+	padding-left: 100px;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+.navright a{
+	text-decoration: none;
+	margin: 0px 50px ;
+}
+
+
+
+/*background*/
+.background{
+	background-image: url(background-layer.png);
+	height: 600px;
+}
+.back-content{
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding-top: 300px;
+}
+.background a span h4{
+	text-align: center;
+	padding-top: 40px;
+	color: bisque;
+}
+.background a{
+	text-decoration: none;
+}
+.background a .span{
+	background-color: rgb(197, 253, 41);
+}
+
+
+
+
+/*about us*/
+.aboutus{
+	text-align: center;
+}
+.aboutus h5{
+	font-weight: 100;
+	text-align: center;
+}
+.imges{
+	display: flex;
+}
+.imges .img{
+	height: 300px;
+	width: 500px;
+}
+
+/*award*/
+.award{
+	background-color: rgba(218, 218, 218, 0.815);
+}
+
+
+
+/*awardstouch*/
+.heading{
+	padding-top: 20px;
+}
+.awardstouch{
+	text-align: center;
+}
+.awardimg{
+	height: 200px;
+	width:100px;
+	display: flex;
+	justify-content: space-between;
+}
+.awardimg .fig .award{
+	height: 200px;
+	width:250px;
+}
+.awardimg .fig .figcap h5{
+	font-weight: 100;
+	margin-top: -10px;
+}
+.awardimg .fig .figcap u{
+	padding-top: 10px;
+}
+.space{
+	height: 100px;
+}
+.textmain{
+	color: green;
+	margin: 75px auto 40px auto;
+	text-align: center;
+}
+ 
+
+
+
+
+
+/*touch*/
+		/*content*/
+.touch{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.content{
+	width: 50%;
+}
+
+
+
+		/*details*/
+.details{
+	width: 50%;
+	padding-left: 8%;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+}
+.details p{
+	line-height: 30px;
+}
+
+
+/*footer*/
+.foot{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	background-color: green;
+	padding-bottom: 10px;
+	color: white;
+}
+.foot-lay{
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+	justify-content: space-evenly;
+}
+.foot-lay .img{
+	height: 20px;
+	width: 20px;
+	margin-top:20px;
+}
+.up{
+	margin-top:20px;
+	height: 30px;
+	width: 30px;
+	position: sticky;
+	cursor: pointer;
+}
